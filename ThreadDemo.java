@@ -13,7 +13,7 @@ public class Demo extends Thread
 	{
 		System.out.println("Thread is Running.");
 		dd.stop();//I explicitly kill the Thread
-		System.out.println("Bye");
+		System.out.println("thread job is over");
 	}
 }
 //run() method is implicitly called by Thread Schedular.
