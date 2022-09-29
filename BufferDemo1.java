@@ -21,6 +21,7 @@ public class BufferDemo1
 		}
 		catch(IOException i)
 		{
+			System.out.println(i)
 		}
 	}
 }
