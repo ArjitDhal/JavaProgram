@@ -1,0 +1,112 @@
+<html>
+	<style>
+		body{
+			background-image:url("r1.png");
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-attachment:fixed;
+			width:100%;
+			height:100%;
+			}
+		fieldset{
+			border-radius:20px;
+			width:250px;
+			background-color:white;
+			padding:0px 80px;
+			opacity:0.6;
+			margin:10;
+			position:relative;
+
+			 }
+		legend{
+			background-color:powderblue;
+			font-size:1.5em;
+			padding:5px;
+			margin:5;
+			opacity:0.9;
+			margin-bottom:18;
+			}
+		ul{
+			overflow:hidden;
+			background-color:white;
+			list-style:none;
+			 
+		} 
+		li{
+			float:right;
+		}
+		li a{
+			 padding:14px 16px;
+			color:black;
+			text-decoration:none;
+			 display:block;
+			text-align:center:
+			 }
+		li a:hover{
+			background-color:blue;
+			color:white;
+			}
+		input[type=submit] , input[type=reset]{
+				color:white;
+				padding:8px 16px;
+				}
+		input[type=text] , input[type=email], input[type=pasword],input[type=number], textarea{
+				background-color:gray;
+				
+				 padding:10px 20px;
+			}
+		::placeholder{
+			color:white;
+		}
+		
+	</style>
+	<body> 
+	
+			<ul >
+				 
+				 <li><a href="#">Logout</a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="login.html">Login</a></li>
+				
+			 
+	
+		 
+			 
+				<li style="float:left;"><a href="home.html">Home</a></li>
+				<li style="float:left;"><a href="#">About us</a></li>
+			 
+		</ul>
+			<center>
+		<fieldset>
+	
+		 <legend align=center><b>Registration Page</b></legend>
+		<input type=text placeholder="Enter First name">
+		<br><br>
+		<input type=text placeholder='Enter Last name'>
+		 <br><br>
+		<input type=Email placeholder='Enter Email'>
+		<br><br>
+		<input type=pasword placeholder='Enter password'>
+		<br><br>
+		<input type=number placeholder='Enter Mobile no.'>
+		<br><br>
+		<textarea rows=3 placeholder='Enter Address'></textarea>
+		<br><br>
+		Gender:<input type=radio name='xyz'>Male
+			<input type=radio name='xyz'>Female    
+			<input type=radio name='xyz'>Others
+		<br><br>
+		<a href="login.html"><input type=submit value='Login' style="background-color:green;"></a>
+		<input type=Reset value='Reset' style="background-color:blue;">
+		 
+		<br><br><hr width=100%>
+		<p>Already have an account? <a href="login.html">Sign in</a></p>
+		
+		</fieldset>
+		
+		</center>	
+			
+		
+		
+	</body>
+</html>
